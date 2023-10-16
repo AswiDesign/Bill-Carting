@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(background.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+}
+
+.banner-container .container{
+    margin-top: 200px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* LEFT SECTION  */
+
+.left-section{
+    width: 600px;
+}
+
+.left-section p{
+    font-style: oblique;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.left-section h1{
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.left-section button{
+    background-color: red;
+    color: white;
+    padding: 7px;
+    border-radius: 9px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* LEFT SECTION END */
+
+/* RIGHT SECTION */
+
+.right-section{
+    background-color: rgba(0, 0, 0, 0.743);
+    padding: 90px;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.right-section h4{
+    margin-left: 60px;
+    font-style: italic;
+    
+}
+
+.input-type{
+    width: 300px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex-direction: column;
+    position: relative;
+
+}
+
+
+.input-type label{
+    color: grey;
+    font-style: italic;
+    font-size: 15px;
+    position: absolute;
+    top: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+
+.input-type input{
+
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-bottom: 1px solid white;
+    margin-top: 5px;
+    color: aliceblue;
+}
+
+#Name{
+    background-color: rgba(0, 0, 0, 0.1) ;
+}
+
+#Email{
+    background-color: rgba(0, 0, 0, 0.1) ;
+}
+
+
+#Password{
+    background-color: rgba(0, 0, 0, 0.1) ;
+}
+
+.input-type :focus ~ label,
+.input-type :valid ~ label{
+    color: white;
+    font-size: 15px;
+    top: -10px;
+}
+
+.input-type :focus,
+.input-type :valid{
+    color: white;
+}
+
+
+.submit-button{
+    background-color: red;
+    color: white;
+    padding: 7px ;
+    border-radius: 9px ;
+    font-weight: bold;
+}

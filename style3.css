@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-left: 29px;
+    
+}
+
+body a{
+    background-color: red;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+h2{
+    color: aliceblue;
+    font-style: italic;
+    padding-left: centre;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    color: aliceblue;
+    margin-top: 90px;
+    margin-left: 50px;
+    
+}
+
+table tr{
+    color: aliceblue;
+}
+
+
+body{
+    color:rgb(255, 255, 255);
+    padding: 60px;
+}
+
+body script{
+    color: red;
+}
+
